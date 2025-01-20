@@ -97,3 +97,49 @@ class _HomePageState extends State<HomePage> {
               ],
             )
   },
+      Expanded(
+        flex: 2,
+        child: Container(
+          alignment: Alignment.center,
+          //color: Colors.blue,
+          child: const Text('Layout Inferior'),
+          ),
+        ),
+      ],
+    ),
+  ),
+    floatingActionButton: FloatingActionButton(
+      onPressed: () {},
+      tooltip: 'Increment',
+      child: const Icon(Icons.add),
+      ),
+    );
+   }
+ }
+
+
+
+      
+
+
+
+
+
+          
+
+
+
+
+
+          
+          
+
+
+
+
+
+
+
+
+
+            
